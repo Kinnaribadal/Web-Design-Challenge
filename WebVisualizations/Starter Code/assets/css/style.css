@@ -26,7 +26,7 @@ body {
     margin-left: 0px;
     padding: 25px;
     background: rgb(74, 99, 126);
-  }
+    }
   
   .navbar li {
     display: d-block;
@@ -35,6 +35,7 @@ body {
     margin-left: 0px;
     cursor: pointer;
   }
+
   .active, .dropdown-menu .dropdown-item:active a:hover{
     background-color:#E7E7E7!important; 
   }
@@ -51,16 +52,27 @@ body {
    }
   h1 {
     font-size: 36px;
+    color: red;
   }
   h2 {
     font-size: 22px;
+    color: black;
   }
   
   p{
       font-size: 18px;
+      color: blue;
   }
   
-  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:lightgray;
+    color:yellow;
+  }
+  img {
+    width: 100%;
+  }
 
   @media (max-width: 500px) {
     .navbar li {
@@ -77,6 +89,10 @@ body {
       visibility: visible;
     }
   }
+  ul{
+    color: blue;
+  
+  }
   
   .col-1 {width: 8%;}
   .col-2 {width: 17%;}
@@ -85,8 +101,8 @@ body {
   .col-5 {width: 40%;}
   .col-6 {width: 50%;}
   .col-7 {width: 60%;}
-  .col-8 {width: 100%}
-  .col-9 {width: 80%;}
+  .col-8 {width: 70%}
+  .col-9 {width: 75%;}
   .col-10 {width: 82%;}
   .col-11 {width: 92%;}
   .col-12 {width: 100%;}
@@ -98,39 +114,30 @@ body {
       }
   }
   /* Style the links inside the sidenav */
-#mySidenav a {
-    position: absolute; /* Position them relative to the browser window */
-    left: -10px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 200px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-  }
+
   
-  #mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-  }
   
   /* The about link: 20px from the top with a green background */
   #Temperature {
     top: 120px;
     background-color: #4CAF50;
+    color: black;
   }
   
   #Cloudiness {
     top: 310px;
-    background-color: #2196F3; /* Blue */
+    background-color: #2196F3;
+    color: black; /* Blue */
   }
   
   #Humidity {
     top: 510px;
-    background-color: #f44336; /* Red */
+    background-color: #f44336; 
+    color: black;/* Red */
   }
   
   #Speed {
     top: 710px;
-    background-color: rgb(236, 218, 57) /* Light Black */
+    background-color: rgb(236, 218, 57);
+    color: black;/* Light Black */
   }
