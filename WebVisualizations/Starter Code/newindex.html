@@ -16,16 +16,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Side navigation -->
+  <!-- Nav Bar -->
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="Landing.html"><font size="+3">Latitude Analysis Dashboard with Attitude</font></a>
+    <a class="navbar-brand" href="Landing.html"><font size="+3">Latitude Analysis Dashboard</font></a>
     <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-    </button
-    <!-- Links -->
+    </button>
+   
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
     <!--<ul class="nav navbar-nav navbar-right">-->
@@ -41,7 +41,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
-            Plots
+             <font size="+2">Visualizations</font>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="Max Temp.html">Max Temperature</a>
@@ -53,35 +53,42 @@
       </ul>
     </div>
   </nav>
-   <!-- Side navigation -->
+   <!--  Main Content -->
 
     <div class="container">
       <div class="row row-grid">
           <div class="col-md-8">
               <div class="box box-left">
                   <section id="intro">
-                      <h1>Summary</h1>
+                      <h1>Landing Page "Project Summary"</h1>
                       <hr>
                       
                       <section id="summary">
-                          <p>Page 1 [landing page](Landing.html)containing:
-                            * An explanation of the project.
-                            
-
-                          <p>Page 2 [Comparison Page](Comparisons.html)
-                            * Contains all of the visualizations on the same page so we can easily visually compare them.
+                          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a data set on over 500 cities.
                           </p>
 
-                          <p>Page 3 [Data Page](Data.html)
-                            * Displays a responsive table containing the data used in the visualizations.
-                              
+                          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.latitude. 
+                            Factors we looked at included:temperature, cloudiness, wind speed, and humidity. This site provides the 
+                            source data and visualizations created as part of the analysis, as well as explanations and descriptions
+                            of any trends and correlations witnessed.
+                          </p>
+                          <hr>
+                          <p>
+                            This website consists of 7 pages total!
                           </p>
 
                           <ul>
-                              <li>Page 4 [Max Temperature Page](Max Temp.html)Temperature (F) vs. Latitude</li>
-                              <li>Page 5 [Humidity Page](Humidity.html)Humidity (%) vs. Latitude</li>
-                              <li>Page 6 [Cloudiness Page](Cloudiness.html)Cloudiness (%) vs. Latitude</li>
-                              <li>Page 7 [Wind Speed Page](Wind Speed.html)Wind Speed (mph) vs. Latitude</li>
+                              <li>Page 1 [landing page](Landing.html)containing:
+                                * An explanation of the project.</li>
+                              <li>Page 2 [Comparison Page](Comparisons.html)
+                              * Contains all of the visualizations on the same page so we can easily visually compare them.</li>
+                              <li>Page 3 [Data Page](Data.html)
+                                * Displays a responsive table containing the data used in the visualizations.</li>
+                              <li>Page 4 Visualizations [Max Temperature Page](Max Temp.html)Temperature (F) vs. Latitude</li>
+                              <li>Page 5 Visualizations [Humidity Page](Humidity.html)Humidity (%) vs. Latitude</li>
+                              <li>Page 6 Visualizations [Cloudiness Page](Cloudiness.html)Cloudiness (%) vs. Latitude</li>
+                              <li>Page 7 Visualizations [Wind Speed Page](Wind Speed.html)Wind Speed (mph) vs. Latitude</li>
 
                           </ul>
 
@@ -90,6 +97,7 @@
                   </section>
               </div>
           </div>
+          <!-- Side Navigation -->
           <div class="col-md-4">
             <div class="row">
             <div class="col-md-6">
