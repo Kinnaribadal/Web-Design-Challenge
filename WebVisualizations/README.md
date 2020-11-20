@@ -1,5 +1,5 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
-
+********************************************************************************
 Page 1 [landing page](Landing.html)containing:
                                 * An explanation of the project.
 
