@@ -1,4 +1,5 @@
 # Web-Design-Challenge
+********************************************************************************
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
 Page 1 [landing page](Landing.html)containing:
