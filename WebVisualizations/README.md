@@ -23,4 +23,6 @@ Page 6 Visualizations [Cloudiness Page](Cloudiness.html)Cloudiness (%) vs. Latit
 
 Page 7 Visualizations [Wind Speed Page](Wind Speed.html)Wind Speed (mph) vs. Latitude
 
+Used Bootstrap in 
+
 
