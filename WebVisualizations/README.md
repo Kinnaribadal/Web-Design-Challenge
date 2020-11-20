@@ -12,7 +12,7 @@ Page 3 [Data Page](Data.html)(untitled.ipynb)
                                 * Displays a responsive table containing the data used in the visualizations.
 
 
-Page 4 Visualizations [Max Temperature Page](Max Temp.html)Temperature (F) vs. Latitude
+Page 4 Visualizations [Max Temp Page](Max Temp.html)Temperature (F) vs. Latitude
 
 
 Page 5 Visualizations [Humidity Page](Humidity.html)Humidity (%) vs. Latitude
